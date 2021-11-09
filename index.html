@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml" xmlns:src="http://www.w3.org/1999/xhtml"
+      xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Cool Submissions and Components</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <form action="signup.html" method="post" id="signup">
+
+        <div class="field">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your fullname" />
+            <small></small>
+        </div>
+        </p>
+        <p>
+        <div class="field">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Enter your email address" />
+            <small></small>
+        </div>
+        </p>
+        <p>
+        <div class="field">
+            <button type="submit" class="full">Submit</button>
+        </div>
+    </form>
+</div>
+
+
+<div id="chgtext">Protagonist</div>
+<a href="#" onclick="document.getElementById('chgtext').innerHTML='Joker';">Change text</a> &nbsp; &nbsp;
+<div id="chgtext2">Anne</div>
+<a href="#" onclick="document.getElementById('chgtext2').innerHTML='Panther';">Change text2</a>&nbsp;  &nbsp;
+<div id="chgtext3">Ryuj</div>
+<a href="#" onclick="document.getElementById('chgtext3').innerHTML='Skull';">Change text3</a>&nbsp;  &nbsp;
+</div>
+
+<!--<t1><br>Protagonist <br> Anne <br>Ryuji</t1>-->
+<!--<t2><br>Joker, <br> Panther <br> Skull</t2>-->
+
+<script src="app.js"></script>
+
+</body>
+</html>
